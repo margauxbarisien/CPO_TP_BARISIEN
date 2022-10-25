@@ -10,16 +10,45 @@ package tp2_bières_barisien;
  */
 public class BouteilleBiere {
     String Nom;
-    float degreAlcool;
+    double degreAlcool;
     String brasserie;
     boolean ouverte;
 
     public void lireEtiquette() {
+    
     System.out.println("Bouteille de " + Nom +" (" + degreAlcool +
-    " degres) \nBrasserie : " + brasserie ) ;
+    " degres) \nBrasserie : " + brasserie + "\nouverte : " + ouverte) ;
     }
-    BouteilleBiere uneBiere = new BouteilleBiere() ;
-
+    public BouteilleBiere(String unNom, double unDegre, String 
+    uneBrasserie, boolean ouverte1) {
+    Nom = unNom;
+    degreAlcool = unDegre;
+    brasserie = uneBrasserie;
+    ouverte=ouverte1;
+    
+    
 }
+    public boolean Décapsuler (){
+    if (ouverte == false) {
+        ouverte =true ;
+        return true;
+    }
+    else {
+        System.out.println("erreur, la bière est déjà ouverte");
+        return false ;
+    }
+    
+    }
+}
+
+
+                
+    
+
+
+
+
+
+
 
 

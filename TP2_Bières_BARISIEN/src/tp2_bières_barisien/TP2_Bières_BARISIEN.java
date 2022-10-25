@@ -14,23 +14,23 @@ public class TP2_Bières_BARISIEN {
      */
     public static void main(String[] args) {
         
-        BouteilleBiere uneBiere = new BouteilleBiere("Cuvée des trolls", 7.0, "Dubuisson") ;
+        BouteilleBiere uneBiere = new BouteilleBiere("Cuvée des trolls", 7.0, "Dubuisson", false) ;
         //uneBiere.Nom = "Cuvee des trolls";
         //uneBiere.degreAlcool = 7.0 ;
         //uneBiere.brasserie = "Dubuisson";
         uneBiere.ouverte = false ;       
         uneBiere.lireEtiquette();
     
-        BouteilleBiere BiereLeffe = new BouteilleBiere("Leffe", 6.6, "Abbaye de Leffe") ;
+        BouteilleBiere BiereLeffe = new BouteilleBiere("Leffe", 6.6, "Abbaye de Leffe", false) ;
         BiereLeffe.lireEtiquette();
         
-        BouteilleBiere BiereChouffe = new BouteilleBiere("Chouffe", 8, "Chez Andrea") ;
+        BouteilleBiere BiereChouffe = new BouteilleBiere("Chouffe", 8, "Chez Andrea", true) ;
         BiereChouffe.lireEtiquette();
         
-        BouteilleBiere BiereGoudale = new BouteilleBiere("Goudale", 7.2, "TirBouchon") ;            
+        BouteilleBiere BiereGoudale = new BouteilleBiere("Goudale", 7.2, "TirBouchon", true) ;            
         BiereGoudale.lireEtiquette();
         
-        BouteilleBiere BiereHeineken = new BouteilleBiere("Heineken", 5, "neuneu") ;
+        BouteilleBiere BiereHeineken = new BouteilleBiere("Heineken", 5, "neuneu", false) ;
         BiereHeineken.lireEtiquette();
   
 }

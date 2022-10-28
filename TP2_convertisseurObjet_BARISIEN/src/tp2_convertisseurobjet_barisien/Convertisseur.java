@@ -10,7 +10,16 @@ package tp2_convertisseurobjet_barisien;
  */
 
 public class Convertisseur { 
-    int nbConversions;
+       int nbConversions; 
+    public Convertisseur (){
+        nbConversions = 0;
+    }
+    @Override
+    public String toString () {
+    return "nb de conversions"+ nbConversions;
+}
+
+    
     
 
 public double CelciusversKelvin (double celcius){ 

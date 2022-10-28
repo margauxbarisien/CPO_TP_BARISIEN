@@ -18,8 +18,11 @@ public class TP2_Bières_BARISIEN {
         //uneBiere.Nom = "Cuvee des trolls";
         //uneBiere.degreAlcool = 7.0 ;
         //uneBiere.brasserie = "Dubuisson";
-        //uneBiere.ouverte = false ;       
-        uneBiere.lireEtiquette();
+        //uneBiere.ouverte = false ;   
+        System.out.println(uneBiere) ;
+
+
+       // uneBiere.lireEtiquette();
     
         BouteilleBiere BiereLeffe = new BouteilleBiere("Leffe", 6.6, "Abbaye de Leffe", false) ;
         BiereLeffe.lireEtiquette();
@@ -33,9 +36,12 @@ public class TP2_Bières_BARISIEN {
         BouteilleBiere BiereHeineken = new BouteilleBiere("Heineken", 5, "neuneu", false) ;
         BiereHeineken.lireEtiquette();
         
-        BiereHeineken.Décapsuler();
-        BiereHeineken.lireEtiquette();
+        //BiereHeineken.Décapsuler();
+        //BiereHeineken.lireEtiquette();
         
-    
-}
+        BouteilleBiere BiereViolette = new BouteilleBiere("La Violette", 4.7, "A Annecy", false) ;
+        System.out.println(BiereViolette) ;
+        BouteilleBiere BiereBlanche = new BouteilleBiere("La 1664 Blanche", 4.9, "Chez Cath", false) ;
+        System.out.println(BiereBlanche) ;
+   }
 }

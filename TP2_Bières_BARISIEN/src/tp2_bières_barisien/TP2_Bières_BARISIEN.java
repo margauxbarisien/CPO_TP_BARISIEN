@@ -18,7 +18,7 @@ public class TP2_Bières_BARISIEN {
         //uneBiere.Nom = "Cuvee des trolls";
         //uneBiere.degreAlcool = 7.0 ;
         //uneBiere.brasserie = "Dubuisson";
-        uneBiere.ouverte = false ;       
+        //uneBiere.ouverte = false ;       
         uneBiere.lireEtiquette();
     
         BouteilleBiere BiereLeffe = new BouteilleBiere("Leffe", 6.6, "Abbaye de Leffe", false) ;
@@ -32,6 +32,10 @@ public class TP2_Bières_BARISIEN {
         
         BouteilleBiere BiereHeineken = new BouteilleBiere("Heineken", 5, "neuneu", false) ;
         BiereHeineken.lireEtiquette();
-  
+        
+        BiereHeineken.Décapsuler();
+        BiereHeineken.lireEtiquette();
+        
+    
 }
 }

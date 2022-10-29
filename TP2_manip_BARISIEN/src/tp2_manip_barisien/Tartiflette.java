@@ -10,7 +10,7 @@ import tp2_manip_barisien.Tartiflette;
 public class Tartiflette {
      int nbCalories;//création nouvel attribut
 
-    public Tartiflette (int calories){
+    public Tartiflette (int calories){//création du construteur avec un paramètre d'entrée
        nbCalories = calories ;  }
 }
             

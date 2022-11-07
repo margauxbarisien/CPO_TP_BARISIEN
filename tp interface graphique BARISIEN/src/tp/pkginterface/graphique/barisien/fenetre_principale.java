@@ -80,6 +80,7 @@ public class fenetre_principale extends javax.swing.JFrame {
 
         jeu3.setText("qui-est-ce?");
 
+        valider1.setBackground(new java.awt.Color(0, 255, 51));
         valider1.setText("valider");
         valider1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -87,6 +88,7 @@ public class fenetre_principale extends javax.swing.JFrame {
             }
         });
 
+        valider2.setBackground(new java.awt.Color(255, 255, 0));
         valider2.setText("valider");
         valider2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -94,6 +96,7 @@ public class fenetre_principale extends javax.swing.JFrame {
             }
         });
 
+        valider3.setBackground(new java.awt.Color(51, 255, 255));
         valider3.setText("valider");
         valider3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
